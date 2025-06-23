@@ -1,0 +1,80 @@
+/* Reset Dasar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f0f7f6, #e0f4f0); /* Contoh gradient */
+    color: #333;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.input-group input { /* Gaya untuk input teks di dalam input-group */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px; /* Sudut kiri bulat, kanan kotak */
+    outline: none; /* Hilangkan outline saat focus */
+}
+
+.input-group button { /* Gaya untuk tombol di dalam input-group */
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0; /* Sudut kanan bulat, kiri kotak */
+    cursor: pointer;
+}
+
+.input-group button:hover { /* Gaya saat tombol di-hover */
+    background-color: #0056b3;
+}
+
+#weather { /* Gaya untuk div yang menampilkan informasi cuaca */
+    margin-top: 20px;
+    /* Properti lain untuk #weather sudah ada di bagian sebelumnya */
+}
+
+.hidden { /* Kelas untuk menyembunyikan elemen */
+    display: none;
+}
+
+#weather h2 { /* Gaya untuk h2 di dalam div #weather (nama kota) */
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#weather p { /* Gaya untuk paragraf di dalam div #weather (suhu, deskripsi) */
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+#weather img { /* Gaya untuk gambar di dalam div #weather (mungkin ikon cuaca) */
+    margin-top: 10px;
+    width: 50px; /* Lebar ikon */
+    height: 50px; /* Tinggi ikon */
+}
